@@ -1,47 +1,35 @@
-# Amigo Secreto
+# Amigo Secreto - Sorteo Digital
 
-Una aplicación web sencilla e interactiva para organizar el tradicional juego del "Amigo Secreto". Los usuarios pueden agregar nombres de participantes, listar a los amigos, y realizar el sorteo de manera automática. Esta herramienta es ideal para reuniones, celebraciones y eventos donde se desea sortear un amigo secreto de forma rápida y divertida.
+## 📝 Descripción
+Aplicación que permite a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
 
-## Características
-- **Agregar participantes:** Permite agregar nombres de amigos al listado.
-- **Visualizar lista:** Muestra una lista de los nombres ingresados.
-- **Sortear amigo secreto:** Selecciona al azar un amigo de la lista y lo muestra como resultado.
-- **Diseño intuitivo:** Interfaz amigable y fácil de usar, ideal para cualquier tipo de usuario.
+## 🚀 Características
+- Interfaz de usuario intuitiva y responsive
+- Añadir múltiples participantes
+- Sorteo aleatorio con un solo clic
+- Validación para evitar errores de usuario
 
-## Tecnologías utilizadas
-- **HTML5:** Estructura del contenido.
-- **CSS3:** Diseño y estilos.
-- **JavaScript:** Lógica para la gestión de nombres y el sorteo aleatorio.
+## 🛠️ Tecnologías Utilizadas
+- HTML5
+- CSS3
+- JavaScript Vanilla
+- Google Fonts (Inter & Merriweather)
 
-## Estructura del proyecto
-El proyecto consta de los siguientes archivos:
+## 💻 Cómo Usar
+1. Clone este repositorio:
 
-### 1. **index.html**
-Archivo principal que contiene la estructura HTML de la aplicación:
-- Encabezado con el título y una imagen representativa.
-- Sección para ingresar nombres, visualizar la lista de amigos y sortear un participante.
-- Botón interactivo para realizar el sorteo.
+```bash
+git clone https://github.com/paulosangonsil/alura-one-esp-challenge-01-amigo-secreto.git
+```
 
-### 2. **app.js**
-Archivo JavaScript con la lógica del proyecto:
-- **Variables:**
-  ```javascript
-  let amigos = [];
-  const lista = document.querySelector("#listaAmigos");
-  ```
-  - `amigos`: Array que almacena los nombres ingresados.
-  - `lista`: Referencia al elemento HTML donde se muestran los nombres.
+2. Abra el archivo `index.html` en su navegador web
+3. Ingrese los nombres de los participantes, uno a uno, usando el campo de texto
+4. Haga clic en "Añadir" para cada participante
+5. Cuando haya ingresado todos los participantes, haga clic en "Sortear amigo"
 
-- **Funciones principales:**
-  - `agregarAmigo()`: Agrega un nombre al array `amigos` y actualiza la lista en pantalla.
-  - `mostrarAmigos()`: Renderiza los nombres de la lista en el DOM.
-  - `sortearAmigo()`: Selecciona aleatoriamente un nombre de la lista y lo muestra como resultado.
 
-### 3. **style.css**
-Archivo de estilos que define el diseño visual de la aplicación
-
-### 4. **assets/**
-Carpeta que contiene recursos como imágenes e íconos utilizados en la aplicación.
+## ✨ Créditos
+Desarrollado como parte del challenge de Alura ONE (Oracle Next Education) - usando https://trello.com/b/M0Y5Zny8/trello-challenge-amigo-secreto-esp
 
 ## Autor
 **Sandra Patricia Bohórquez**
